@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+
+
+:root{
+    --font_prin: 'Open Sans',sans-serif;
+    --cor01: #63E009;
+    --cor02: #4CAD07;
+    --cor03: #4E7036;
+    --cor04: #2B6104;
+    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font_prin);
+}
+
+body{
+    height: 100vh;
+}
+
+header{
+    background-image: linear-gradient(to top,#4CAD07, #4E7036, #2B6104);
+    height: 150px;
+    padding-top: 40px;
+    margin-bottom: 10px;
+}
+
+header > h1 {
+    background-color: none;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ffffffd9;
+}
+
+header > nav{
+    padding: 15px 0px 0px 0px;
+
+}
+
+header > nav > a{
+    padding: 10px ;
+    display: inline-block;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.843);
+}
+
+
+header > nav > a:hover{
+    text-decoration: underline;
+    background-color: rgba(16, 111, 2, 0.353);
+    border-radius: 8px 8px 0px 0px;
+}
+
+main{
+    margin: auto;
+    max-width: 1000px;
+    min-width: 300px;
+    padding: 10px 10px 0px 10px;
+    /* border: 2px dashed black; */
+}
+
+.h1{
+    text-indent: 8px;
+    background-image: linear-gradient(to right, #63E009, transparent);
+    margin: 10px 0px 10px 0px;
+}
+
+.p1{
+    line-height: 1.5em;
+    text-align: justify;
+    text-indent: 8px;
+}
+
+aside{
+    /* padding: 0px 10px 0px 10px; */
+    border-radius: 8px 8px 0px 0px;
+    margin-top: 10px;
+    background-color: var(--cor02);
+    width: 500px;
+    height: 400px;
+}
+
+aside > h1{
+    text-align: center;
+    background-color: #2B6104;
+    border-radius: 10px 10px 0px 0px;
+}
+
+aside > p{
+    text-align: justify;
+    padding: 0px 10px 0px 10px;
+    margin-bottom: 10px;
+}
+
+/* footer{
+    padding-top: 45px;
+    background-color: var(--cor03);
+    height: 100px;
+} */
+
+/* footer > nav{
+    padding-left: 10px;
+}
+
+footer > nav > a{
+    text-decoration: none;
+    color: white;
+} */
